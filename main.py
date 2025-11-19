@@ -39,7 +39,14 @@ except Exception as e:
 app = Flask(__name__)
 
 # Enable CORS
-CORS(app, origins=["http://localhost:3000"])  
+CORS(
+    app,
+    resources={r"/*": {"origins": [
+        "http://localhost:3000",
+        "https://insurence-premium-prediction-fronte.vercel.app"
+    ]}},
+    supports_credentials=True
+)
 
 @app.route('/')
 def home():
