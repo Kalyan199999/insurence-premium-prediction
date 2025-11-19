@@ -1,33 +1,17 @@
-2025-11-19 13:22:59 - DEBUG - Starting app and loading the models
-2025-11-19 13:23:00 - DEBUG - Models are loaded successfully!
-2025-11-19 13:23:00 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://10.30.18.3:5000
-2025-11-19 13:23:00 - INFO - [33mPress CTRL+C to quit[0m
-2025-11-19 13:23:10 - DEBUG - Received a prediction request
-2025-11-19 13:23:10 - DEBUG - Received data: {'age': 10, 'sex': 'male', 'bmi': 10.9, 'children': 0, 'smoker': 'no', 'region': 'southwest'}
-2025-11-19 13:23:10 - DEBUG - Input data:
+2025-11-19 13:31:23 - DEBUG - Starting app and loading the models
+2025-11-19 13:31:24 - DEBUG - Models are loaded successfully!
+2025-11-19 13:31:24 - WARNING -  * Debugger is active!
+2025-11-19 13:31:24 - INFO -  * Debugger PIN: 136-129-056
+2025-11-19 13:31:40 - DEBUG - Received a prediction request
+2025-11-19 13:31:40 - DEBUG - Received data: {'age': 10, 'sex': 'male', 'bmi': 10.9, 'children': 0, 'smoker': 'no', 'region': 'southwest'}
+2025-11-19 13:31:40 - DEBUG - Input data:
    age   sex   bmi  children smoker     region
 0   10  male  10.9         0     no  southwest
-2025-11-19 13:23:10 - DEBUG - Transforming the data
-2025-11-19 13:23:10 - DEBUG - Transforming the data is completed!
-2025-11-19 13:23:10 - DEBUG - Applying the model to predict the output
-2025-11-19 13:23:10 - DEBUG - prediction is completed!
-2025-11-19 13:23:10 - DEBUG - Prediction result: [1057.56299211]
-2025-11-19 13:23:10 - DEBUG - 
+2025-11-19 13:31:40 - DEBUG - Transforming the data
+2025-11-19 13:31:40 - DEBUG - Transforming the data is completed!
+2025-11-19 13:31:40 - DEBUG - Applying the model to predict the output
+2025-11-19 13:31:40 - DEBUG - prediction is completed!
+2025-11-19 13:31:40 - DEBUG - Prediction result: [1057.56299211]
+2025-11-19 13:31:40 - DEBUG - 
  --------------------------------------------------------------------------------------------------
-2025-11-19 13:23:10 - INFO - 127.0.0.1 - - [19/Nov/2025 13:23:10] "POST /predict HTTP/1.1" 200 -
-2025-11-19 13:23:27 - DEBUG - Received a prediction request
-2025-11-19 13:23:27 - DEBUG - Received data: {'age': 10, 'sex': 'male', 'bmi': 10.9, 'children': 0, 'smoker': 'no', 'region': 'southwest'}
-2025-11-19 13:23:27 - DEBUG - Input data:
-   age   sex   bmi  children smoker     region
-0   10  male  10.9         0     no  southwest
-2025-11-19 13:23:27 - DEBUG - Transforming the data
-2025-11-19 13:23:27 - DEBUG - Transforming the data is completed!
-2025-11-19 13:23:27 - DEBUG - Applying the model to predict the output
-2025-11-19 13:23:27 - DEBUG - prediction is completed!
-2025-11-19 13:23:27 - DEBUG - Prediction result: [1057.56299211]
-2025-11-19 13:23:27 - DEBUG - 
- --------------------------------------------------------------------------------------------------
-2025-11-19 13:23:27 - INFO - 127.0.0.1 - - [19/Nov/2025 13:23:27] "POST /predict HTTP/1.1" 200 -
+2025-11-19 13:31:40 - INFO - 127.0.0.1 - - [19/Nov/2025 13:31:40] "POST /predict HTTP/1.1" 200 -
