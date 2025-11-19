@@ -1,4 +1,5 @@
 from flask import Flask, request , jsonify
+from flask_cors import CORS  # <-- import CORS
 import pandas as pd
 import joblib
 import logging
@@ -37,6 +38,8 @@ except Exception as e:
 # Initialize Flask app
 app = Flask(__name__)
 
+# Enable CORS
+CORS(app, origins=["http://localhost:3000"])  
 
 @app.route('/')
 def home():

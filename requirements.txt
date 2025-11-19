@@ -2,3 +2,4 @@ pandas
 joblib
 flask
 scikit-learn
+CORS
