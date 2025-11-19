@@ -77,7 +77,7 @@ def predict():
 
         logging.debug('\n --------------------------------------------------------------------------------------------------')
 
-        return jsonify({"predicted_insurance_premium": predicted_value})
+        return jsonify({"prediction": predicted_value})
     
     except Exception as e:
 
